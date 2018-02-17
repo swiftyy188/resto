@@ -3,11 +3,15 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { CallbackComponent } from './callback.component';
+import { RestaurantComponent } from './restaurant/restaurant.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CallbackComponent,
+    RestaurantComponent
   ],
   imports: [
     BrowserModule

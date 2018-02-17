@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var mongoose = require('mongoose');
+var Restaurant = require('../models/Restaurant.js');
 
 //Home page
 router.get('/', function(req, res, next){

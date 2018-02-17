@@ -6,7 +6,6 @@ var path = require('path');
 
 var app = express();
 var restaurant = require('./routes/restaurant');
-var restaurant = require('./routes/movie');
 
 //bodyParser
 app.use(bodyParser.json());
